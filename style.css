@@ -1,0 +1,38 @@
+body {
+  background-color: #0d192c;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background-color: #15263f;
+}
+
+.corner {
+  border-radius: 15px;
+}
+
+.lightblue-text {
+  color: #8bacd9;
+  font-weight: 300;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.brightblue-text {
+  color: #00fff8;
+}
+
+.stroke {
+  border-top: 1px solid #2e405a;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #00fff8;
+  text-decoration: none;
+}
