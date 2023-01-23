@@ -5,10 +5,32 @@ body {
 
 .card {
   background-color: #15263f;
+  width: 350px;
+  margin-top: 152px;
 }
 
 .corner {
   border-radius: 15px;
+}
+
+.cubes {
+  position: relative;
+}
+
+.cubes:hover .blue-cube {
+  display: block;
+  z-index: 1;
+  opacity: 70%;
+  left: 15px;
+}
+
+.blue-cube {
+  position: absolute;
+  display: none;
+}
+
+.cube {
+  position: relative;
 }
 
 .lightblue-text {
