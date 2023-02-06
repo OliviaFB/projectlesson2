@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(section-main.css);
 @import url(buttons.css);
+@import url(homepage.css);
 
 body {
   margin: 0;
@@ -9,7 +10,8 @@ body {
 }
 
 .page-container {
-  padding: 0 165px 122px 165px;
+  width: 1110px;
+  margin: 0 auto;
 }
 
 h1 {

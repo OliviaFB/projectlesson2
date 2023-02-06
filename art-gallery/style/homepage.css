@@ -1,0 +1,217 @@
+body {
+  font-family: "Big Shoulders Display", cursive;
+  margin: 0 !important;
+}
+
+.container-top {
+  position: relative;
+  margin: 0;
+  height: 800px;
+  margin-bottom: 180px;
+}
+
+.black-box {
+  width: 450px;
+  height: 799px;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-img {
+  width: 540px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 450px;
+}
+
+.header-paragraph {
+  position: absolute;
+  width: 350px;
+  height: 160px;
+  top: 190px;
+  left: 925px;
+  z-index: 10;
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #444444;
+}
+
+.header-paragraph p {
+  margin: 0;
+}
+
+.btn-home {
+  border: none;
+  height: 72px;
+  width: 260px;
+  position: relative;
+  left: 925px;
+  top: 414px;
+}
+
+.btn-text-right {
+  right: 30px;
+}
+
+.btn-content {
+  position: absolute;
+  width: 204px;
+  height: 72px;
+  top: 23px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.6363637447357178px;
+  text-align: left;
+  font-family: Big Shoulders Display;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 22px;
+  right: 23px;
+}
+
+.btn-header {
+  background: linear-gradient(90deg, #151515 75%, #d5966c 22%);
+}
+
+.modernart-white {
+  position: absolute;
+  z-index: 10;
+  left: 165px;
+  top: 190px;
+}
+
+.modernart-black {
+  position: absolute;
+  z-index: 10;
+  left: 165px;
+  top: 190px;
+  z-index: 9;
+}
+
+/* Art grid */
+
+.lower-container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: 635px 635px;
+  grid-template-rows: 400px 720px;
+  gap: 30px;
+}
+
+.art-grid1 {
+  width: 350px;
+  height: 280px;
+}
+
+.art-grid1 h1 {
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.art-grid1 p {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.art-grid2 {
+  height: 400px;
+  width: 635px;
+  position: absolute;
+  right: 188px;
+}
+
+.art-grid3 {
+  height: 720px;
+  width: 635px;
+}
+
+.art-grid4 {
+  height: 313px;
+  width: 445px;
+}
+
+.art-grid5 {
+  width: 445px;
+  height: 377px;
+  background-color: black;
+  color: white;
+  margin-top: 26px;
+}
+
+.art-grid5 h1 {
+  font-family: Big Shoulders Display;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0 0 32px 0;
+}
+
+.art-grid5 p {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.art-grid5-details {
+  padding: 65px 47px 64px 48px;
+}
+
+/* Footer */
+
+footer {
+  height: 244px;
+  background-color: black;
+  margin-top: 180px;
+  padding: 0 165px 0 165px;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  padding-top: 80px;
+}
+
+footer p {
+  color: white;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  height: 84px;
+  width: 430px;
+}
+
+.social-media {
+  display: flex;
+  column-gap: 20px;
+}
