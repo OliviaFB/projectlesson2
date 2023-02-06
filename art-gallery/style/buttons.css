@@ -1,0 +1,75 @@
+.buttons-grid {
+  display: grid;
+  grid-template-columns: 260px 260px;
+  column-gap: 308px;
+  row-gap: 56px;
+  padding: 0 140px 0 140px;
+}
+
+.btn {
+  border: none;
+  height: 72px;
+  width: 260px;
+  position: relative;
+}
+
+.btn-text-right {
+  right: 30px;
+}
+
+.btn-text-left {
+  left: 90px;
+}
+
+.btn-text {
+  position: absolute;
+  width: 204px;
+  height: 72px;
+  top: 23px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.6363637447357178px;
+  text-align: left;
+  font-family: Big Shoulders Display;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 22px;
+  left: 23px;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 22px;
+  right: 23px;
+}
+
+.btn-type1 {
+  background: linear-gradient(90deg, #d5966c 75%, #151515 22%);
+}
+
+.btn-type2 {
+  background: linear-gradient(90deg, #d5966c 25%, #151515 22%);
+}
+
+.btn-type3 {
+  background: linear-gradient(90deg, #151515 75%, #d5966c 22%);
+}
+
+.btn-type4 {
+  background: linear-gradient(90deg, #151515 25%, #d5966c 22%);
+}
+
+.button-details {
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #d9d9d9;
+  margin-top: 24px;
+}

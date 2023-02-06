@@ -1,0 +1,22 @@
+.top-bar {
+  background-color: black;
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.design-system {
+  color: white;
+  font-family: Outfit;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: right;
+  font-family: "Outfit", sans-serif;
+}
+
+.logo {
+  height: 58px;
+  width: 160px;
+}

@@ -1,0 +1,94 @@
+.section-main {
+  margin-bottom: 118px;
+}
+
+.typography {
+  display: grid;
+  grid-template-columns: 540px 540px;
+  grid-gap: 30px;
+}
+
+.heading-one,
+.heading-two,
+.heading-three,
+.heading-four {
+  margin: 18px 0 64px 0;
+  text-transform: uppercase;
+  color: #151515;
+}
+
+.heading-one {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.heading-two {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.heading-three {
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.heading-four {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.typo-details {
+  font-family: Outfit !important;
+}
+
+.font {
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #151515;
+}
+
+.font-details {
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #d9d9d9;
+}
+
+.paragraph-first {
+  font-family: Outfit !important;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #444444;
+}
+
+.paragraph-second {
+  font-family: Outfit !important;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #151515;
+}

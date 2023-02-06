@@ -1,0 +1,63 @@
+.header {
+  margin-bottom: 120px;
+}
+
+.color-cards {
+  display: grid;
+  grid-template-columns: 255px 255px 255px 255px;
+  grid-gap: 30px;
+}
+
+.color-card {
+  height: 103px;
+  width: 255px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: white;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.color-card h2 {
+  left: 16px;
+  top: 22px;
+  position: absolute;
+}
+
+.gold-card {
+  background-color: #d5966c;
+}
+
+.black-card {
+  background-color: #151515;
+}
+
+.grey-card {
+  background-color: #444444;
+}
+
+.white-card {
+  border: 1px solid #44444458;
+  color: black;
+}
+
+.color-codes {
+  display: grid;
+  grid-template-columns: 40px 100px;
+  grid-row-gap: 2px;
+}
+
+.color-details {
+  font-family: Outfit !important;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.code-label {
+  color: #a2a2a2;
+}
