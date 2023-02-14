@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Big Shoulders Display;
+}
+
+/* Map */
+
+.btn-type2 {
+  background: linear-gradient(90deg, #d5966c 25%, #151515 22%);
+}
+
+.btn {
+  border: none;
+  height: 72px;
+  width: 264px;
+  position: absolute;
+  top: 0;
+  left: 156px;
+  z-index: 10;
+}
+
+.btn-text-right {
+  right: 30px;
+}
+
+.btn-text-left {
+  left: 90px;
+}
+
+.btn-text {
+  position: absolute;
+  width: 204px;
+  height: 72px;
+  top: 23px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 3.6363637447357178px;
+  text-align: left;
+  font-family: Big Shoulders Display;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 22px;
+  left: 23px;
+}
+
+/* Black header */
+
+.header-top {
+  background-color: black;
+  height: 548px;
+  color: white;
+  align-items: center;
+}
+
+.content-header-top {
+  display: flex;
+  padding: 104px 165px 128px 165px;
+  column-gap: 325px;
+}
+
+.header-top h1 {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.header-top h1,
+h2 {
+  margin: 0;
+}
+
+.address {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #d5966c;
+  margin-bottom: 24px;
+}
+
+.address-details {
+  margin-bottom: 32px;
+}
+
+.address-details,
+.address-description {
+  color: white;
+  font-family: Outfit !important;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+/* footer */
+
+.footer {
+  background-color: #d5966c;
+  height: 244px;
+}
+
+.footer-content {
+  padding: 80px 165px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.logo-modern {
+  padding-right: 140px;
+}
+
+.opening-details {
+  padding-right: 280px;
+  font-family: Outfit !important;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.social-media {
+  display: flex;
+  column-gap: 20px;
+}
+
+.footer img {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(241deg) brightness(0%)
+    contrast(100%);
+}
