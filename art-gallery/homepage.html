@@ -11,10 +11,23 @@
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;500;800;900&family=Outfit:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
     <div class="container-top">
+      <div class="menu">
+        <div class="menu-details">
+          <div class="cross-closing">X</div>
+          <div class="menu-title">MENU</div>
+          <div><a href="homepage.html">HOMEPAGE</a></div>
+          <div><a href="location.html">LOCATION</a></div>
+          <div><a href="index.html">DESIGN SHEET</a></div>
+        </div>
+      </div>
       <div>
         <img
           class="modernart-white"
@@ -27,7 +40,9 @@
           alt="modern art gallery"
         />
       </div>
-      <div class="black-box"></div>
+      <div class="black-box">
+        <div class="cross-opening">MENU</div>
+      </div>
       <div class="header-paragraph">
         <p>
           The arts in the collection of the Modern Art Gallery all started from
@@ -40,8 +55,11 @@
         src="style/artgalleryheader.jpg"
         alt="Art Gallery"
       />
+      <div class="responsive-menu">MENU</div>
       <button class="btn-home btn-header">
-        <div class="btn-content btn-text-right">OUR LOCATION</div>
+        <div class="btn-content btn-text-right">
+          <a class="btn-link" href="location.html">OUR LOCATION</a>
+        </div>
         <div class="arrow-right">
           <img src="style/arrowright.png" alt="arrow right" />
         </div>
@@ -102,4 +120,5 @@
       </div>
     </footer>
   </body>
+  <script src="script.js"></script>
 </html>

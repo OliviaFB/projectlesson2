@@ -32,13 +32,17 @@ body {
   width: 204px;
   height: 72px;
   top: 23px;
-  color: white;
   font-size: 20px;
   font-weight: 800;
   line-height: 24px;
   letter-spacing: 3.6363637447357178px;
   text-align: left;
   font-family: Big Shoulders Display;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
 }
 
 .arrow-left {
@@ -135,4 +139,109 @@ h2 {
 .footer img {
   filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(241deg) brightness(0%)
     contrast(100%);
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .btn {
+    left: 39px;
+  }
+
+  .content-header-top {
+    padding: 88px 40px 80px 39px;
+    column-gap: 68px;
+  }
+
+  .header-top {
+    height: 436px;
+  }
+
+  .header-top h1 {
+    font-size: 55px;
+    line-height: 50px;
+  }
+
+  .header-top h2 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
+  .address,
+  .address-details {
+    margin-bottom: 20px;
+  }
+
+  .address-description,
+  .address-details {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  .logo-modern {
+    padding-right: 65px;
+  }
+
+  .logo-modern img {
+    width: 110px;
+    height: 40px;
+  }
+
+  .footer {
+    height: 216px;
+  }
+
+  .footer-content {
+    padding: 56px 40px 56px 39px;
+  }
+
+  .opening-details {
+    font-size: 16px;
+    line-height: 26px;
+    padding-right: 133px;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+  .btn {
+    left: 0;
+  }
+
+  .header-top {
+    height: 493px;
+  }
+
+  .content-header-top {
+    display: block;
+    padding: 48px 16px 56px 16px;
+  }
+
+  .header-top h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    margin-bottom: 48px;
+  }
+
+  .footer {
+    height: 336px;
+  }
+
+  .footer-content {
+    padding: 48px 32px;
+    display: block;
+  }
+
+  .logo-modern,
+  .opening-details {
+    padding-right: 0;
+    margin-bottom: 38px;
+  }
 }

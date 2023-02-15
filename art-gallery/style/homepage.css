@@ -5,6 +5,59 @@ body {
   margin: 0 !important;
 }
 
+.menu {
+  height: 800px;
+  width: 611px;
+  background-color: black;
+  position: absolute;
+}
+
+.cross-closing {
+  color: white;
+  font-size: 40px;
+  place-self: flex-end;
+}
+
+.menu-details {
+  padding: 40px;
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.menu-title {
+  font-size: 80px !important;
+  margin-bottom: 50px;
+}
+
+.cross-opening {
+  padding: 40px;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.responsive-menu {
+  display: none;
+}
+
+.menu-details a {
+  text-decoration: none;
+  color: white;
+}
+
 .container-top {
   position: relative;
   margin: 0;
@@ -56,6 +109,11 @@ body {
   position: relative;
   left: 925px;
   top: 414px;
+}
+
+.btn-link {
+  color: white;
+  text-decoration: none;
 }
 
 .btn-text-right {
@@ -258,6 +316,25 @@ footer p {
     left: 0;
   }
 
+  .menu {
+    display: none;
+  }
+
+  .responsive-menu {
+    display: block;
+    position: absolute;
+    padding: 40px;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
   .header-paragraph {
     top: 323px;
     left: 389px;
@@ -389,6 +466,10 @@ footer p {
     height: 630px;
   }
 
+  .menu-details {
+    font-size: 40px;
+  }
+
   .modernart-black {
     height: 110px;
     width: 278px;
@@ -427,6 +508,7 @@ footer p {
   }
 
   .container-top {
+    width: 375px;
     margin-bottom: 100px;
   }
 
