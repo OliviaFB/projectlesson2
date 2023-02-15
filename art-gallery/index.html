@@ -4,224 +4,121 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/homepage.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;500;800;900&family=Outfit:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
     <title>Document</title>
   </head>
   <body>
-    <div class="top-bar">
-      <div class="logo">
-        <img src="style/modernartgallerylogo.png" alt="" />
-      </div>
-      <div class="design-system">Design System</div>
-    </div>
-
-    <div class="page-container">
-      <div class="header">
-        <h1>COLORS</h1>
-
-        <div class="color-cards">
-          <div>
-            <div class="color-card gold-card">
-              <h2>#D5966C</h2>
-            </div>
-            <div class="color-codes">
-              <div class="color-details code-label">
-                <div>RGB</div>
-                <div>HSV</div>
-              </div>
-              <div class="color-details">
-                <div>213, 150, 108</div>
-                <div>24°, 49%, 84%</div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="color-card black-card">
-              <h2>#151515</h2>
-            </div>
-            <div class="color-codes">
-              <div class="color-details code-label">
-                <div>RGB</div>
-                <div>HSV</div>
-              </div>
-              <div class="color-details">
-                <div>21, 21, 21</div>
-                <div>0°, 0%, 8%</div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="color-card grey-card">
-              <h2>#444444</h2>
-            </div>
-            <div class="color-codes">
-              <div class="color-details code-label">
-                <div>RGB</div>
-                <div>HSV</div>
-              </div>
-              <div class="color-details">
-                <div>68, 68, 68</div>
-                <div>0°, 0%, 27%</div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div class="color-card white-card">
-              <h2>#FFFFFF</h2>
-            </div>
-            <div class="color-codes">
-              <div class="color-details code-label">
-                <div>RGB</div>
-                <div>HSV</div>
-              </div>
-              <div class="color-details">
-                <div>255, 255, 255</div>
-                <div>0°, 0%, 100%</div>
-              </div>
-            </div>
-          </div>
+    <div class="container-top">
+      <div class="menu">
+        <div class="menu-details">
+          <div class="cross-closing">X</div>
+          <div class="menu-title">MENU</div>
+          <div><a href="index.html">HOMEPAGE</a></div>
+          <div><a href="location.html">LOCATION</a></div>
+          <div><a href="designsheet.html">DESIGN SHEET</a></div>
         </div>
       </div>
+      <div>
+        <img
+          class="modernart-white"
+          src="style/modernartwhite.png"
+          alt="modern art gallery"
+        />
+        <img
+          class="modernart-black"
+          src="style/modernartblack.png"
+          alt="modern art gallery"
+        />
+      </div>
+      <div class="black-box">
+        <div class="cross-opening">MENU</div>
+      </div>
+      <div class="header-paragraph">
+        <p>
+          The arts in the collection of the Modern Art Gallery all started from
+          a spark of inspiration. Will these pieces inspire you? Visit us and
+          find out.
+        </p>
+      </div>
+      <img
+        class="header-img"
+        src="style/artgalleryheader.jpg"
+        alt="Art Gallery"
+      />
+      <div class="responsive-menu">MENU</div>
+      <button class="btn-home btn-header">
+        <div class="btn-content btn-text-right">
+          <a class="btn-link" href="location.html">OUR LOCATION</a>
+        </div>
+        <div class="arrow-right">
+          <img src="style/arrowright.png" alt="arrow right" />
+        </div>
+      </button>
+    </div>
 
-      <div class="section-main">
-        <div class="typography">
-          <div>
-            <h1>TYPOGRAPHY</h1>
-
-            <div class="typo-details" style="display: flex; column-gap: 13px">
-              <div class="font">Heading (XL)</div>
-              <div class="font-details">Big Shoulders Display Black</div>
-              <div class="font-details">96px</div>
-              <div class="font-details">88px</div>
-              <div class="font-details">Line Spacing</div>
-            </div>
-            <p class="heading-one">Morbi in sem placerat</p>
-            <div>
-              <div class="typo-details" style="display: flex; column-gap: 13px">
-                <div class="font">Heading (L)</div>
-                <div class="font-details">Big Shoulders Display Black</div>
-                <div class="font-details">70px</div>
-                <div class="font-details">70px</div>
-                <div class="font-details">Line Spacing</div>
-              </div>
-              <p class="heading-two">Praesent dapibus neque id cursus</p>
-
-              <div class="typo-details" style="display: flex; column-gap: 13px">
-                <div class="font">Heading (M)</div>
-                <div class="font-details">Big Shoulders Display Black</div>
-                <div class="font-details">60px</div>
-                <div class="font-details">50px</div>
-                <div class="font-details">Line Spacing</div>
-              </div>
-              <p class="heading-three">Phasellus ultrices nulla quis nibh</p>
-
-              <div class="typo-details" style="display: flex; column-gap: 13px">
-                <div class="font">Heading (S)</div>
-                <div class="font-details">Big Shoulders Display Black</div>
-                <div class="font-details">36px</div>
-                <div class="font-details">36px</div>
-                <div class="font-details">Line Spacing</div>
-              </div>
-              <p class="heading-four">
-                Nam nulla quam gravida non commodo a sodales sit
+    <div class="lower-container">
+      <div class="art-grid">
+        <div class="mobile-grid2">
+          <img class="art-grid2" src="style/art-grid1.jpg" alt="" />
+        </div>
+        <div class="art-grid1">
+          <h1>YOUR DAY AT THE GALLERY</h1>
+          <p>
+            Wander through our distinct collections and find new insights about
+            our artists. Dive into the details of their creative process.
+          </p>
+        </div>
+        <div class="container-grid2">
+          <img class="art-grid2" src="style/art-grid1.jpg" alt="" />
+        </div>
+        <div><img class="art-grid3" src="style/art-grid2.jpg" alt="" /></div>
+        <div>
+          <img class="art-grid4" src="style/art-grid3.jpg" alt="" />
+          <div class="art-grid5">
+            <div class="art-grid5-details">
+              <h1>COME & BE INSPIRED</h1>
+              <p>
+                We’re excited to welcome you to our gallery and see how our
+                collections influence you.
               </p>
             </div>
           </div>
-
-          <div style="padding-top: 85px">
-            <div class="typo-details" style="display: flex; column-gap: 13px">
-              <div class="font">Body (M)</div>
-              <div class="font-details">Outfit Light</div>
-              <div class="font-details">22px</div>
-              <div class="font-details">32px</div>
-              <div class="font-details">Line Spacing</div>
-            </div>
-
-            <p class="paragraph-first">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-              neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-              ligula sollicitudin laoreet viverra, tortor libero sodales leo,
-              eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo.
-              Suspendisse potenti. Sed egestas, ante et vulputate volutpat, eros
-              pede semper est, vitae luctus metus libero eu augue. Morbi purus
-              libero, faucibus adipiscing, commodo quis, gravida id, est. Sed
-              lectus. Praesent elementum hendrerit tortor. Sed semper lorem at
-              felis. Vestibulum volutpat, lacus a ultrices sagittis.
-            </p>
-
-            <div class="typo-details" style="display: flex; column-gap: 13px">
-              <div class="font">Body (M)</div>
-              <div class="font-details">Outfit Light</div>
-              <div class="font-details">18px</div>
-              <div class="font-details">28px Line Spacing</div>
-            </div>
-
-            <p class="paragraph-second">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-              Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi
-              neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium,
-              ligula sollicitudin laoreet viverra, tortor libero sodales leo,
-              eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo.
-              Suspendisse potenti.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="section-buttons">
-        <h1>BUTTONS</h1>
-        <div class="buttons-grid">
-          <div>
-            <button class="btn btn-type1">
-              <div class="btn-text btn-text-right">OUR LOCATION</div>
-              <div class="arrow-right">
-                <img src="style/arrowright.png" alt="arrow right" />
-              </div>
-            </button>
-            <div class="button-details">Button 1 Idle</div>
-          </div>
-
-          <div>
-            <button class="btn btn-type2">
-              <div class="btn-text btn-text-left">BACK TO HOME</div>
-              <div class="arrow-left">
-                <img src="style/arrowleft.png" alt="arrow left" />
-              </div>
-            </button>
-            <div class="button-details">Button 2 Idle</div>
-          </div>
-
-          <div>
-            <button class="btn btn-type3">
-              <div class="btn-text btn-text-right">OUR LOCATION</div>
-              <div class="arrow-right">
-                <img src="style/arrowright.png" alt="arrow right" />
-              </div>
-            </button>
-            <div class="button-details">Button 1 Hover</div>
-          </div>
-
-          <div>
-            <button class="btn btn-type4">
-              <div class="btn-text btn-text-left">BACK TO HOME</div>
-              <div class="arrow-left">
-                <img src="style/arrowleft.png" alt="arrow left" />
-              </div>
-            </button>
-            <div class="button-details">Button 2 Hover</div>
-          </div>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="footer-details">
+        <div>
+          <img
+            class="logo-footer"
+            src="style/modernartgallerylogo.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <p>
+            The Modern Art Gallery is free to all visitors and open seven days a
+            week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+          </p>
+        </div>
+        <div class="social-media">
+          <div><img class="facebook" src="style/facebook.svg" alt="" /></div>
+          <div><img class="instagram" src="style/instagram.svg" alt="" /></div>
+          <div><img class="twitter" src="style/twitter.svg" alt="" /></div>
+        </div>
+      </div>
+    </footer>
   </body>
+  <script src="script.js"></script>
 </html>
