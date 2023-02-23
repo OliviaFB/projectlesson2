@@ -4,11 +4,11 @@ let crossClosing = document.querySelector(".cross-closing");
 let menu = document.querySelector(".menu");
 
 crossOpening.addEventListener("click", (event) => {
-  menu.style = "z-index: 15";
+  menu.style = "width: 450px; z-index: 20; transition: 2s";
 });
 
 crossClosing.addEventListener("click", (event) => {
-  menu.style = "z-index: 0";
+  menu.style = "width: 0px; z-index: -10; transition: 2s";
 });
 
 let responsiveMenu = document.querySelector(".responsive-menu");
