@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 600px;
+  background-color: rgb(245, 240, 208);
+}
+
+.divider {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hummus-img {
+  width: 500px;
+  border-radius: 16px;
+}
