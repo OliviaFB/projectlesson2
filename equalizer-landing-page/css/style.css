@@ -1,0 +1,372 @@
+body {
+  background-color: #fcfaf9;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0;
+}
+
+.container-page {
+  position: relative;
+  overflow: hidden;
+}
+
+.container-second,
+.footer {
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+.group-shapes-top {
+  left: 1128px;
+  top: -40px;
+  position: absolute;
+  z-index: 1;
+}
+
+.orange-shape {
+  left: -146px;
+  top: -112px;
+  position: absolute;
+}
+
+.blue-shape {
+  position: absolute;
+  top: 100.5px;
+  left: 899.5px;
+  border-radius: 0px;
+}
+
+.yellow-shape {
+  position: absolute;
+  left: 899.5px;
+  top: 371.5px;
+}
+
+.header {
+  margin-top: 62px;
+  margin-bottom: 108px;
+  padding-left: 165px;
+  padding-right: 260px;
+}
+
+.header h1 {
+  font-family: IBM Plex Sans;
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: -1px;
+  text-align: left;
+  margin-top: 127px;
+  margin-bottom: 0;
+}
+
+.header p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-right: 153px;
+}
+
+/* container second */
+
+.container-second {
+  position: relative;
+  background-color: #191826;
+  height: 600px;
+  border-radius: 12px;
+  margin-top: 321px;
+  margin-bottom: 202px;
+}
+
+.phone-image {
+  height: 642px;
+  width: 312px;
+  object-fit: cover;
+  position: absolute;
+  z-index: 2;
+  left: 102px;
+  bottom: 171px;
+}
+
+.orange-container {
+  background-color: #fa7453;
+  height: 625px;
+  width: 446px;
+  border-radius: 12px;
+  position: absolute;
+  z-index: 2;
+  right: 95px;
+  top: 90px;
+}
+
+.group-shapes-main {
+  position: absolute;
+  z-index: 1;
+  left: 336px;
+}
+
+.offer-details {
+  padding: 58px 59px 48px 54px;
+  color: #fcfaf9;
+}
+
+.offer-details h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 39px;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 46px;
+}
+
+.price {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+  padding-right: 16px;
+}
+
+.month {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  margin: 0;
+}
+
+.button-white,
+.button-black {
+  height: 61px;
+  width: 333px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18000000715255737px;
+  text-align: center;
+}
+
+.button-black {
+  background-color: #191826;
+  margin-bottom: 16px;
+  color: #fcfaf9;
+  display: flex;
+  padding: 15px 90px;
+}
+
+.button-white {
+  display: flex;
+  padding: 15px 77px;
+}
+
+.apple-logo {
+  padding-right: 8px;
+  padding-top: 3px;
+}
+
+.android-logo {
+  padding-right: 4px;
+  padding-top: 4px;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  margin-bottom: 91px;
+}
+
+.equalizer-logo {
+  height: 32px;
+  padding-right: 138px;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+  padding-right: 345px;
+}
+
+.email {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.facebook-logo,
+.instagram-logo,
+.twitter-logo {
+  width: 20px;
+}
+
+.facebook-logo,
+.instagram-logo {
+  padding-right: 20px;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 375px) {
+  .group-shapes-top {
+    display: none;
+  }
+
+  .orange-shape {
+    display: none;
+  }
+
+  .yellow-shape {
+    left: 10px;
+    top: 26px;
+  }
+
+  .blue-shape {
+    top: -264px;
+    left: 3px;
+  }
+
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 40px;
+  }
+
+  .container-second {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .footer {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4545454680919647px;
+    text-align: left;
+    margin-top: 64px;
+  }
+
+  .header p {
+    padding-right: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+
+  .phone-image {
+    height: 430px;
+    width: 208px;
+    object-fit: cover;
+    bottom: 268px;
+    left: 80.67px;
+  }
+
+  .container-second {
+    margin-top: 166px;
+  }
+
+  .group-shapes-main {
+    position: absolute;
+    height: 420px;
+    width: 280px;
+    left: 48px;
+    top: 0;
+  }
+
+  .orange-container {
+    height: 546px;
+    width: 375px;
+    left: 0px;
+    top: 386px;
+  }
+
+  .offer-details {
+    padding: 48px 37px 48px 36px;
+  }
+
+  .offer-details h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  .offer-details p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+
+  .button-white,
+  .button-black {
+    height: 61px;
+    width: 296px;
+  }
+
+  .button-black {
+    padding: 15px 75px;
+  }
+
+  .button-white {
+    padding: 15px 58px;
+  }
+
+  .footer {
+    display: block;
+    margin-top: 385px;
+    margin-bottom: 81px;
+  }
+
+  .footer p {
+    padding-right: 0;
+  }
+
+  .equalizer-logo {
+    margin-bottom: 32px;
+  }
+
+  .social-media {
+    margin-top: 64px;
+  }
+}
