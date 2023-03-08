@@ -16,7 +16,7 @@ body {
 }
 
 .group-shapes-top {
-  left: 1128px;
+  right: 0;
   top: -40px;
   position: absolute;
   z-index: 1;
@@ -330,12 +330,23 @@ body {
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
+    margin-bottom: 12px;
   }
 
-  .offer-details p {
+  .description {
+    margin-bottom: 36px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .month {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
+  }
+
+  .price-container {
+    margin-bottom: 32px;
   }
 
   .button-white,
