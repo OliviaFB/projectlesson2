@@ -9,55 +9,27 @@
   </head>
   <body>
     <div class="container">
+      <img class="hummus-img" src="hummus.png" alt="hummus dish" />
+
       <div>
+        <h1>Hummus recipe</h1>
         <div class="divider">
-          <div>
-            <img class="hummus-img" src="hummus.png" alt="hummus dish" />
-          </div>
-          <div>
-            <h2>Ingredients for: 1 portion</h2>
-            <select name="portions" class="portions">
-              <option class="portion-number" value="portion">1</option>
-              <option class="portion-number" value="portion">2</option>
-              <option class="portion-number" value="portion">3</option>
-              <option class="portion-number" value="portion">4</option>
-              <option class="portion-number" value="portion">5</option>
-              <option class="portion-number" value="portion">6</option>
-            </select>
-            <button>Tap portions</button>
-            <ul>
-              <li>
-                <span class="amount">1</span>
-                <span class="unit">can</span>
-                <span class="name">chickpeas</span>
-              </li>
-              <li>
-                <span class="amount">0.25</span>
-                <span class="unit">cup</span>
-                <span class="name">tahini</span>
-              </li>
-              <li>
-                <span class="amount">0.25</span>
-                <span class="unit">cup</span>
-                <span class="name">lemon juice</span>
-              </li>
-              <li>
-                <span class="amount">1</span>
-                <span class="unit">clove</span> garlic
-              </li>
-              <li>
-                <span class="amount">2</span>
-                <span class="unit">tablespoons</span>
-                <span class="name">olive oil</span>
-              </li>
-              <li>
-                <span class="amount">0.5</span>
-                <span class="unit">teaspoon</span>
-                <span class="name">cumin</span>
-              </li>
-            </ul>
-          </div>
+          <select id="portions" name="portions" class="portions">
+            <option class="portion-number" value="1">1</option>
+            <!-- <option class="portion-number" value="2">2</option>
+            <option class="portion-number" value="3">3</option>
+            <option class="portion-number" value="4">4</option>
+            <option class="portion-number" value="5">5</option>
+            <option class="portion-number" value="6">6</option> -->
+          </select>
+
+          <p id="text"></p>
+
+          <input type="button" onclick="addingData()" value="Calculate" />
         </div>
+        <table>
+          <tbody id="data"></tbody>
+        </table>
       </div>
     </div>
     <script src="script.js"></script>
